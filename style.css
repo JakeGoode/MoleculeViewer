@@ -1,0 +1,31 @@
+/* css style sheet */
+
+.center {
+    
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    color: brown;
+
+}
+
+.text {
+
+    font-weight: bold;
+    color: brown;
+}
+
+.labels {
+
+    font-style: italic;
+    color: brown;
+}
+
+.buttons {
+
+    color: brown;
+}
+
+
+

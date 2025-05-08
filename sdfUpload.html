@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <title> File Upload </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"> </script>
+    <script src="script.js" /></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <h1 class="center"> File Upload </h1>
+    <p>
+      <a href="/index.html"> Main Menu </a>
+    </p>
+    <p>
+      <a href="/elementTable.html"> Element List </a>
+    </p>
+    <p>
+      <a href="/moleculeList.html"> Molecule List </a>
+    </p>
+    <form action="moleculeName.html" enctype="multipart/form-data" method="post">
+      <p>
+        <input type="file" id="sdf_file" name="filename"/>
+      </p>
+      <p>
+        <input class ="buttons" type="submit" value="Upload"/>
+      </p>
+    </form>
+  </body>
+</html>
