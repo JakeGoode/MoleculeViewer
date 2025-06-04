@@ -15,7 +15,7 @@ Full-Stack application that manipulates .sdf files to generate molecules in svg 
 1. Download python3.1 on your local machine https://www.python.org/downloads/
 2. Download Swig3.0 on your local machine https://open-box.readthedocs.io/en/latest/installation/install_swig.html
 
-# How to run
+# How to Run
 
 1. Clone the repo locally
 2. Change the python installation pathways that are native to your local machine in ```makefile``` 
