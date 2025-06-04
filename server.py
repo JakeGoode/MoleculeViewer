@@ -15,6 +15,9 @@ db.create_tables() # Create tables if needed
 class MyHandler(BaseHTTPRequestHandler):
     
     def do_GET(self):
+        if self.path == '/':
+            self.path = '/index.html'
+        
         if self.path in public_files:
             self.send_response(200)  # OK
             
